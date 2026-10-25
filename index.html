@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Монтаж ОПС — влог монтажника охранно-пожарной сигнализации</title>
+<meta name="description" content="Влог практикующего монтажника охранно-пожарной сигнализации: схемы, видеоуроки, разбор ошибок, монтаж ОПС под ключ.">
+<style>
+  :root{
+    --accent:#e8590c;
+    --dark:#1c2333;
+    --light:#f6f7fb;
+    --text:#2b2f3a;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Segoe UI',Arial,sans-serif;color:var(--text);background:var(--light);line-height:1.6;}
+  header{background:var(--dark);color:#fff;padding:14px 5%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10;}
+  header .logo{font-weight:700;font-size:1.2rem;}
+  header .logo span{color:var(--accent);}
+  nav a{color:#cfd6e4;text-decoration:none;margin-left:22px;font-size:.95rem;}
+  nav a:hover{color:var(--accent);}
+  .hero{background:linear-gradient(120deg,var(--dark) 60%,#3a4a6b);color:#fff;padding:90px 5% 80px;}
+  .hero h1{font-size:2.4rem;max-width:700px;margin-bottom:16px;}
+  .hero p{max-width:560px;font-size:1.1rem;color:#c9d3e8;margin-bottom:30px;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;padding:14px 34px;border-radius:8px;text-decoration:none;font-weight:600;transition:.2s;}
+  .btn:hover{background:#c74a08;}
+  .btn.ghost{background:transparent;border:2px solid var(--accent);margin-left:14px;}
+  section{padding:70px 5%;}
+  .section-title{font-size:1.8rem;margin-bottom:8px;}
+  .section-sub{color:#6b7280;margin-bottom:40px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;}
+  .card{background:#fff;border-radius:12px;padding:26px;box-shadow:0 4px 14px rgba(0,0,0,.06);}
+  .card h3{margin-bottom:10px;color:var(--dark);}
+  .card .icon{font-size:2rem;margin-bottom:10px;}
+  .videos .card{padding:0;overflow:hidden;}
+  .video-placeholder{background:var(--dark);color:#fff;height:180px;display:flex;align-items:center;justify-content:center;font-size:.95rem;}
+  .video-info{padding:18px;}
+  .about{background:#fff;}
+  .about p{max-width:720px;margin-bottom:14px;}
+  .stats{display:flex;gap:40px;margin-top:30px;flex-wrap:wrap;}
+  .stats div strong{font-size:1.8rem;color:var(--accent);display:block;}
+  #contact form{max-width:520px;}
+  input,textarea{width:100%;padding:13px;margin-bottom:14px;border:1px solid #d7dbe5;border-radius:8px;font-size:1rem;font-family:inherit;}
+  button.btn{border:none;cursor:pointer;}
+  footer{background:var(--dark);color:#8f9ab3;text-align:center;padding:26px 5%;font-size:.9rem;}
+  footer a{color:var(--accent);}
+  @media(max-width:640px){
+    .hero h1{font-size:1.7rem;}
+    .btn.ghost{margin-left:0;margin-top:12px;display:block;text-align:center;}
+    nav{display:none;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Монтаж<span>ОПС</span>.влог</div>
+  <nav>
+    <a href="#about">Обо мне</a>
+    <a href="#videos">Видео</a>
+    <a href="#services">Услуги</a>
+    <a href="#contact">Связаться</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Охранно-пожарная сигнализация без воды и теории</h1>
+  <p>Я монтажник с опытом. Показываю реальные объекты, схемы подключения, ошибки и хитрости, которые не расскажут в учебниках.</p>
+  <a class="btn" href="#videos">Смотреть влог</a>
+  <a class="btn ghost" href="#contact">Заказать монтаж</a>
+</div>
+
+<section id="about" class="about">
+  <h2 class="section-title">Кто я</h2>
+  <p class="section-sub">Практик, а не теоретик</p>
+  <div class="grid">
+    <div class="card">
+      <p>Меня зовут <b>Имя Фамилия</b> — монтажник ОПС. Более <b>N лет</b> на объектах: квартиры, магазины, склады, офисы. В блоге делюсь тем, с чем сталкиваюсь каждый день.</p>
+    </div>
+  </div>
+  <div class="stats">
+    <div><strong>10+</strong> лет в профессии</div>
+    <div><strong>500+</strong> смонтированных объектов</div>
+    <div><strong>100+</strong> выпусков влога</div>
+  </div>
+</section>
+
+<section id="videos">
+  <h2 class="section-title">Свежие выпуски</h2>
+  <p class="section-sub">Замените заглушки на встроенные ролики с вашего канала</p>
+  <div class="grid videos">
+    <div class="card">
+      <div class="video-placeholder">▶ Вставьте iframe с YouTube</div>
+      <div class="video-info"><h3>Выпуск 1. Монтаж системы в частном доме</h3></div>
+    </div>
+    <div class="card">
+      <div class="video-placeholder">▶ Вставьте iframe с YouTube</div>
+      <div class="video-info"><h3>Выпуск 2. Разбор типовых ошибок при подключении</h3></div>
+    </div>
+    <div class="card">
+      <div class="video-placeholder">▶ Вставьте iframe с YouTube</div>
+      <div class="video-info"><h3>Выпуск 3. Выбор оборудования: бюджет и надёжность</h3></div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <h2 class="section-title">Что я делаю</h2>
+  <p class="section-sub">Услуги и чем блог будет полезен</p>
+  <div class="grid">
+    <div class="card"><div class="icon">🔌</div><h3>Монтаж ОПС под ключ</h3><p>Проектирование, кабельные трассы, установка и пусконаладка на любом объекте.</p></div>
+    <div class="card"><div class="icon">🎬</div><h3>Видеоуроки и схемы</h3><p>Наглядные разборы подключений, настроек приборов и шлейфов.</p></div>
+    <div class="card"><div class="icon">🛠️</div><h3>Разбор ошибок</h3><p>Показываю, как не сделать дорого и как исправить чужие косяки.</p></div>
+    <div class="card"><div class="icon">📋</div><h3>Консультации</h3><p>Помогаю подобрать оборудование под бюджет и задачу до начала работ.</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Связаться со мной</h2>
+  <p class="section-sub">Заказ монтажа, сотрудничество, вопросы по видео</p>
+  <form onsubmit="event.preventDefault();alert('Спасибо! Сообщение отправлено (подключите свой обработчик).');">
+    <input type="text" placeholder="Ваше имя" required>
+    <input type="tel" placeholder="Телефон или Telegram" required>
+    <textarea rows="4" placeholder="Опишите задачу"></textarea>
+    <button class="btn" type="submit">Отправить</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 МонтажОПС.влог — Все права защищены</p>
+  <p>Соцсети: <a href="#">YouTube</a> · <a href="#">Telegram</a> · <a href="#">VK</a></p>
+</footer>
+
+</body>
+</html>
