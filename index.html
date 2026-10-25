@@ -44,6 +44,11 @@
   button.btn{border:none;cursor:pointer;}
   footer{background:var(--dark);color:#8f9ab3;text-align:center;padding:26px 5%;font-size:.9rem;}
   footer a{color:var(--accent);}
+
+  /* Стили для новостей */
+  .news-img{width:100%;height:160px;background:#ddd;object-fit:cover;border-radius:8px 8px 0 0;margin-bottom:12px;}
+  .news-date{color:#888;font-size:.85rem;margin-bottom:6px;}
+
   @media(max-width:640px){
     .hero h1{font-size:1.7rem;}
     .btn.ghost{margin-left:0;margin-top:12px;display:block;text-align:center;}
@@ -58,6 +63,7 @@
   <nav>
     <a href="#about">Обо мне</a>
     <a href="#videos">Видео</a>
+    <a href="#news">Новости</a>
     <a href="#services">Услуги</a>
     <a href="#contact">Связаться</a>
   </nav>
@@ -103,6 +109,33 @@
     </div>
   </div>
 </section>
+
+<!-- Новый блок новостей -->
+<section id="news">
+  <h2 class="section-title">Новости</h2>
+  <p class="section-sub">Свежие обновления, объекты и полезные материалы</p>
+  <div class="grid">
+    <article class="card">
+      <img src="" alt="Фото объекта" class="news-img" style="background:#e0e4e9;">
+      <div class="news-date">25.10.2026</div>
+      <h3>Новый объект: склад 320 м²</h3>
+      <p>Смонтировали ОПС на складе: 24 датчика, 3 прибора, резервное питание. В следующем выпуске — схема и разбор нюансов прокладки кабеля.</p>
+    </article>
+    <article class="card">
+      <img src="" alt="Схема подключения" class="news-img" style="background:#dcdcdc;">
+      <div class="news-date">22.10.2026</div>
+      <h3>Разбор: как не ошибиться с выбором кабеля</h3>
+      <p>Показываю, какой кабель реально нужен для шлейфа и почему дешёвые варианты приводят к ложным срабатываниям. Смотрите в выпуске №47.</p>
+    </article>
+    <article class="card">
+      <img src="" alt="Оборудование на объекте" class="news-img" style="background:#dadfe3;">
+      <div class="news-date">18.10.2026</div>
+      <h3>Тест новых извещателей</h3>
+      <p>Проверил на объекте три модели дымовых датчиков: время срабатывания, чувствительность, ложные тревоги. Результаты — в таблице и видео.</p>
+    </article>
+  </div>
+</section>
+<!-- Конец блока новостей -->
 
 <section id="services">
   <h2 class="section-title">Что я делаю</h2>
